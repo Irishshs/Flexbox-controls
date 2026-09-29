@@ -1,0 +1,36 @@
+.MAMA {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 10px;
+}
+
+.Cards {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: aquamarine;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+img {
+    border: 2px solid pink;
+    border-radius: 25px;
+    width: 60px;
+    height: 60px;
+}
+
+#c1 {
+    align-self: flex-start;
+}
+
+#c2 {
+    align-self: center;
+}
+
+#c3 {
+    align-self: flex-end;
+}
